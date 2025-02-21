@@ -1,0 +1,64 @@
+html,
+body{
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: "lato" , sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #666;
+}
+.pimg1{
+    background-image: url(image1.png);
+    min-height: 100%;
+
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+.pimg2{
+    background-image: url(https://media.istockphoto.com/id/471926619/photo/moraine-lake-at-sunrise-banff-national-park-canada.jpg?s=612x612&w=0&k=20&c=mujiCtVk5QA697SD3d8V8BGmd91-8HlxCNHkolEA0Bo=);
+    min-height: 70%;
+}
+.pimg3{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUPIfiGgUML8G3ZqsNLHfaCnZK3I5g4tJabQ&s);
+    min-height: 50%;
+}
+
+.pimg1, .pimg2,  .pimg3{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.ptext{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+.textBg{
+    background-color: #313534;
+    color: white;
+    padding: 20px;
+    border-radius: 1vw;
+}
+.section{
+    padding: 50px 80px;
+    text-align: center;
+}
+.section-light{
+    background-color: #f4f4f4;
+    color: #666;
+}
+.section-dark{
+    background-color: #313534;
+    color: white;
+}
